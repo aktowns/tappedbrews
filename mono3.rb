@@ -25,7 +25,7 @@ class Mono3 < Formula
     system "make install"
 
     Fsharp.new.brew do
-      ENV.append 'PATH', "#{bin}"
+      ENV.prepend 'PATH', ":#{bin}"
       system "./autogen.sh --prefix=#{prefix} --with-gacdir=#{lib}/mono/gac/"
       system "make install"
     end
