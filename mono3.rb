@@ -10,6 +10,9 @@ class Mono3 < Formula
   homepage 'http://www.mono-project.com/Release_Notes_Mono_3.0'
   md5 'f1c5619036593de7dc19d16681e3b4d1'
 
+  depends_on 'automake' => :build
+  depends_on 'pkg-config'
+
   def install
     args = ["--prefix=#{prefix}",
             "--with-glib=embedded",
