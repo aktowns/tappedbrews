@@ -1,6 +1,6 @@
 require 'formula'
 
-class Mono < Formula
+class Mono3 < Formula
   url 'http://download.mono-project.com/sources/mono/mono-3.0.0.tar.bz2'
   homepage 'http://www.mono-project.com/Release_Notes_Mono_3.0'
   md5 'c012b01ac17bedb0af52b7a16405da84'
