@@ -3,7 +3,7 @@ require 'formula'
 class Mono3 < Formula
   url 'http://download.mono-project.com/sources/mono/mono-3.0.0.tar.bz2'
   homepage 'http://www.mono-project.com/Release_Notes_Mono_3.0'
-  md5 'c012b01ac17bedb0af52b7a16405da84'
+  md5 'f1c5619036593de7dc19d16681e3b4d1'
 
   def install
     args = ["--prefix=#{prefix}",
