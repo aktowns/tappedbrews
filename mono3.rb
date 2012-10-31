@@ -25,6 +25,7 @@ class Mono3 < Formula
     system "make install"
 
     Fsharp.new.brew do
+      ENV.append 'PATH', "#{bin}"
       system "./autogen.sh --prefix=#{prefix}"
       system "make install"
     end
