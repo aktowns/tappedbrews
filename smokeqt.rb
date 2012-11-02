@@ -5,6 +5,7 @@ class Smokeqt < Formula
   url ''
   sha1 ''
   head 'git://anongit.kde.org/smokeqt'
+  version '0.0'
 
   depends_on 'cmake' => :build
   depends_on 'aktowns/tappedbrews/mono3'

@@ -5,6 +5,7 @@ class Qyoto < Formula
   url ''
   head 'git://gitorious.org/assemblygen/assemblygen.git'
   sha1 '3475389f9c4fb195b8843bb09e1e618223b4fe56'
+  version '0.0'
 
   depends_on 'cmake' => :build
   depends_on 'qt'

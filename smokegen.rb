@@ -5,6 +5,7 @@ class Smokegen < Formula
   url ''
   head 'git://anongit.kde.org/smokegen'
   sha1 ''
+  version '0.0'
 
   depends_on 'aktowns/tappedbrews/mono3'
   depends_on 'cmake' => :build
