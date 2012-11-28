@@ -2,11 +2,11 @@ require 'formula'
 
 class Fsharp < Formula
   homepage 'http://fsharp.github.com/fsharp/'
-  url 'https://nodeload.github.com/fsharp/fsharp/zipball/3.0.11'
+  url 'https://nodeload.github.com/fsharp/fsharp/zip/3.0.22'
 end
 
 class Mono3 < Formula
-  url 'http://download.mono-project.com/sources/mono/mono-3.0.0.tar.bz2'
+  url 'http://download.mono-project.com/sources/mono/mono-3.0.1.tar.bz2'
   homepage 'http://www.mono-project.com/Release_Notes_Mono_3.0'
   md5 'f1c5619036593de7dc19d16681e3b4d1'
 
