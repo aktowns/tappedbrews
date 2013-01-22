@@ -27,6 +27,8 @@ class Mono3 < Formula
 
     Fsharp.new.brew do
       ENV.prepend 'PATH', "#{bin}:"
+      ENV.prepend 'PKG_CONFIG_PATH', "PKG_CONFIG_PATH=#{lib}/pkgconfig/:"
+
       system "./autogen.sh --prefix=#{prefix} --with-gacdir=#{lib}/mono/gac/"
       system "make"
       system "make install"
