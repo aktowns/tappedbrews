@@ -2,13 +2,13 @@ require 'formula'
 
 class Fsharp < Formula
   homepage 'http://fsharp.github.com/fsharp/'
-  url 'https://nodeload.github.com/fsharp/fsharp/zipball/3.0.11'
+  url 'https://nodeload.github.com/fsharp/fsharp/zipball/3.0.25'
 end
 
 class Mono3 < Formula
-  url 'http://download.mono-project.com/sources/mono/mono-3.0.0.tar.bz2'
+  url 'http://download.mono-project.com/sources/mono/mono-3.0.3.tar.bz2'
   homepage 'http://www.mono-project.com/Release_Notes_Mono_3.0'
-  md5 'f1c5619036593de7dc19d16681e3b4d1'
+  md5 'c1e9fb125f620597a9bc1cdc1fee9288'
 
   depends_on 'automake' => :build
   depends_on 'pkg-config'
