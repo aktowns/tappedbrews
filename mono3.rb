@@ -2,7 +2,7 @@ require 'formula'
 
 class Fsharp < Formula
   homepage 'http://fsharp.github.com/fsharp/'
-  url 'https://nodeload.github.com/fsharp/fsharp/zipball/3.0.25'
+  url 'https://github.com/fsharp/fsharp/archive/3.0.25.zip'
 end
 
 class Mono3 < Formula
