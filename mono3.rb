@@ -9,6 +9,7 @@ class Mono3 < Formula
   url 'http://download.mono-project.com/sources/mono/mono-3.0.3.tar.bz2'
   homepage 'http://www.mono-project.com/Release_Notes_Mono_3.0'
   md5 'c1e9fb125f620597a9bc1cdc1fee9288'
+  version '3.0.1'
 
   depends_on 'automake' => :build
   depends_on 'pkg-config'
